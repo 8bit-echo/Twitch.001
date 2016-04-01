@@ -1,0 +1,19 @@
+��/* In browser window title */
+"Get a donation key!" = "Αποκτήστε κλειδί δωρεάς!";
+
+/* The full name of the supporter */
+"Registered to {0}" = "Καταχωρημένο σε {0}";
+
+/* Cyberduck is open source software */
+"Thanks for your support! Your contribution helps to further advance development to make Cyberduck even better." = "Ευχαριστώ για την στήριξη! Η συμβολή σας βοηθάει στην περαιτέρω ανάπτυξη ώστε να γίνει το Cyberduck ακόμα καλύτερο.";
+
+/* Copy of donation key */
+"Your donation key has been copied to the Application Support folder." = "Το κλειδί δωρεάς σας έχει αντιγραφεί στον φάκελο Application Support.";
+
+/* Validation failed */
+"Not a valid donation key" = "Μη έγκυρο κλειδί δωρεάς";
+
+"This donation key does not appear to be valid." = "Αυτό το κλειδί δωρεάς δεν φαίνεται να είναι έγκυρο.";
+
+/* Thank you */
+"Continue" = "Συνέχεια";
