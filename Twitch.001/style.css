@@ -33,7 +33,7 @@ body {
 body div{
 	display: inline-block;
 	position: relative;
-	border: solid 1px red;
+	/*border: solid 1px red;*/
 }
 
 #wrapper{
@@ -45,7 +45,7 @@ body div{
 }
 
 #hour{
-	margin-left: 50px;
+	margin-left: 0px;
 	border-right: solid 1px white;
 	font-weight: bold;
 }
@@ -56,5 +56,20 @@ body div{
 
 #weekday{
 	font-family: "Yellowtail", cursive;
+	transform: rotate(-14deg);
+	top:-35px;
+	left:30px;
+}
 
+#date{
+	top:0px;
+	left:75px;
+}
+
+.large{
+	font-size:4em;
+}
+
+.tint{
+	color:#F9CF82;
 }
