@@ -1,3 +1,23 @@
+@font-face{
+	font-family: "Yellowtail";
+	src: url("font/Yellowtail-Regular.otf");
+}
+
+@font-face{
+	font-family: "Montserrat";
+	font-weight: 300;
+	font-style: lighter;
+	src: url("font/Montserrat-UltraLight.otf");
+}
+
+@font-face{
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-style: bolder;
+	src: url("font/Montserrat-Bold.otf");
+}
+
+
 body {
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -8,4 +28,33 @@ body {
     width: 375px;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+body div{
+	display: inline-block;
+	position: relative;
+	border: solid 1px red;
+}
+
+#wrapper{
+	position: absolute;
+	width:230px;
+	height: 150px;
+	transform: scale(1.0);
+
+}
+
+#hour{
+	margin-left: 50px;
+	border-right: solid 1px white;
+	font-weight: bold;
+}
+
+#minute{
+	font-weight: 300;
+}
+
+#weekday{
+	font-family: "Yellowtail", cursive;
+
 }
