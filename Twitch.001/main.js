@@ -6,7 +6,7 @@ function startTime(){
 
 	var today = new Date();
 	var hour = today.getHours();
-	var minute = today.getMinute();
+	var minute = today.getMinutes();
 	var meridiem = "";
 	var dayNames = new Array(
 		"Sunday",
@@ -63,9 +63,20 @@ function startTime(){
 	}
 
 	//Assignment statements
-	
+	document.getElementById('hour').innerHTML =  hour;
+	document.getElementById('minute').innerHTML = minute;
+	document.getElementById('am-pm').innerHTML = meridiem;
+	document.getElementById('weekday').innerHTML = weekday;
+	document.getElementById('day').innerHTML = date;
+	document.getElementById('month').innerHTML = month;
 
-
-
-
+	setTimeout(function(){
+		startTime();
+	}, 500);
 }
+
+
+
+
+
+
