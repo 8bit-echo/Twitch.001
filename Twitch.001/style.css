@@ -21,12 +21,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 
     /*TEMPORARY THINGS*/
-    background: url('wallpaper.jpg');
+    /*background: url('wallpaper.jpg');
     height: 667px;
     width: 375px;
     background-repeat: no-repeat;
     background-size: contain;
-}
+}*/
 
 body div {
     display: inline-block;
