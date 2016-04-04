@@ -5,22 +5,20 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> </title>
 </head>
 
 <body onload="startTime()">
-    <div id="wrapper">
-        <div id="hour" class = "large">00</div>
-        <div id="minute" class = "large">00</div>
-        <div id="am-pm">am</div>
-        <div id="date">
-            <div id="month">march</div>
-            <div id="day">31</div>
+    <div id = "wrapper">
+        <div id = "hour" class="large"></div>
+        <div id = "minute" class="large"></div>
+        <div id = "am-pm">default</div>
+        <div id = "date">
+            <span id = "month"></span>
+            <span id = "day"></span>
         </div>
-        <!-- end of date -->
-        <div id="weekday" class = "tint large">thursday</div>
-    </div>
-    <!--end of  wrapper -->
-    <script src="main.js" type="text/javascript"></script>
+        <div id = "weekday" class = "large tint"></div>
+    </div> <!-- /wrapper -->
+    <script src="scripts.js" type="text/javascript"></script>
 </body>
-
 </html>
