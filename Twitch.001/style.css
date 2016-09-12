@@ -6,73 +6,69 @@
 @font-face {
     font-family: 'Montserrat';
     font-weight: 300;
-    font-style: lighter;
     src: url('font/Montserrat-UltraLight.otf');
 }
 
 @font-face {
     font-family: 'Montserrat';
-    font-style: bold;
     src: url('font/Montserrat-Bold.otf');
 }
 
 body {
     color: white;
     font-family: 'Montserrat', sans-serif;
-
     /*TEMPORARY THINGS*/
-    /*background: url('wallpaper.jpg');
-    height: 667px;
+    /*background: url('wallpaper.jpg');*/
+    /*height: 667px;
     width: 375px;
     background-repeat: no-repeat;
     background-size: contain;*/
 }
 
-body div {
-    display: inline-block;
-    position: absolute;
-    text-align: center;
+#wrapper {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    width: 230px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     /*border: solid 1px red;*/
 }
-
-#wrapper {
-    position: absolute;
-    width: 230px;
-    margin: 0 auto;
-    transform: scale(1);
-    height: 150px;
-    text-shadow: 5px 5px 5px rgba(0,0,0,.5);
-/*    top:210px;
-    left: 55px;*/
+.time{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 
 #hour {
     border-right: solid 1px white;
     font-weight: bold;
-    padding-right: 5px;
-    top: 0px;
-    left: 30px;
+    padding-right: 8px;
 }
 
 #minute {
+
     font-weight: 300;
+    padding-left: 8px;
 }
 
 #weekday {
     font-family: 'Yellowtail', cursive;
-    transform: rotate(-14deg);
-    top: 70px;
-    left: 40px;
+    -webkit-transform: rotate(-11deg);
+            transform: rotate(-11deg);
+    margin-top: -28px
 }
-
-#date {
-    top: 76px;
-    left: 85px;
-}
-
-#day {}
-
-#month {}
 
 .large {
     font-size: 4em;
